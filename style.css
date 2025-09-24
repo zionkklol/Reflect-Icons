@@ -1,0 +1,51 @@
+@import url(https://use.fontawesome.com/releases/v6.4.2/css/all.css);
+
+.codetheworld-io
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+}
+
+body
+{
+    background-color: rgb(22, 19, 27);
+}
+
+a {
+    margin: 0 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.7s ease;
+    background: rgba(0, 0, 0, 0);
+    color: var(--color);
+    font-size: 4em;
+    -webkit-box-reflect: below 4px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+
+a:hover
+{
+    background: var(--color);
+    color: #050801;
+    width: 140px;
+    height: 140px;
+    border: 2px solid var(--color);
+    box-shadow: 0 0 5px var(--color),
+    0 0 25px var(--color),
+    0 0 50px var(--color),
+    0 0 200px var(--color);
+    font-size: 5em; 
+}
+
+.codetheworld-io a:hover {
+  color: #fff; /* muda a cor junto, opcional */
+}
